@@ -1,0 +1,46 @@
+## Arquivos e pastas do Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.ide
+
+## Pastas de build e compilação
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rtifacts/
+TestResults/
+
+## Logs e temporários
+*.log
+*.tlog
+*.pidb
+*.svclog
+*.tmp
+
+## Ferramentas de terceiros (Resharper, Rider etc.)
+_ReSharper*/
+*.resharper
+*.DotSettings.user
+.idea/
+
+## Banco de dados local (SQL Server/SQLite)
+*.mdf
+*.ldf
+*.ndf
+*.dbmdl
+
+## Configurações locais (não versionar segredos)
+appsettings.Development.json
+appsettings.*.local.json
+secrets.json
+.env
+
+## Node/NPM (caso use no front no mesmo repo)
+node_modules/
+npm-debug.log
+yarn-error.log
