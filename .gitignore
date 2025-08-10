@@ -33,6 +33,10 @@ _ReSharper*/
 *.ldf
 *.ndf
 *.dbmdl
+*.db
+*.db-shm
+*.db-wal
+
 
 ## Configurações locais (não versionar segredos)
 appsettings.Development.json
