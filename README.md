@@ -1,20 +1,30 @@
-Reserva de Salas
-Projeto de prova técnica para gerenciamento de reservas de salas, desenvolvido em .NET 8, Entity Framework Core e SQLite.
+# 📅 Reserva de Salas
 
-🛠 Tecnologias
-.NET 8 (ASP.NET Core Web API)
-Entity Framework Core
-SQLite (banco de dados)
-FluentValidation
-Swagger (documentação e testes da API)
+Projeto de **prova técnica** para gerenciamento de reservas de salas, desenvolvido em **.NET 8** com **Entity Framework Core** e **SQLite**.
 
-📂 Estrutura
-ReservaSalas.Api → Camada de API
-ReservaSalas.Aplicacao → Casos de uso e serviços de aplicação
-ReservaSalas.Dominio → Entidades e regras de negócio
-ReservaSalas.Infraestrutura → Acesso a dados e repositórios
+Repositório: [https://github.com/jhenriquefelix/reserva-salas-backend](https://github.com/jhenriquefelix/reserva-salas-backend)
 
-Como rodar o projeto
+---
+
+## 🛠 Tecnologias Utilizadas
+- **.NET 8** (ASP.NET Core Web API)
+- **Entity Framework Core 8**
+- **SQLite** (banco de dados leve e simples)
+- **FluentValidation** (validação de dados)
+- **Swagger** (documentação e testes da API)
+
+---
+
+## 📂 Estrutura do Projeto
+- **ReservaSalas.Api** → Camada de API (controllers e configuração)
+- **ReservaSalas.Aplicacao** → Casos de uso, DTOs e serviços de aplicação
+- **ReservaSalas.Dominio** → Entidades e regras de negócio
+- **ReservaSalas.Infraestrutura** → Acesso a dados, repositórios e migrations
+
+---
+
+## 🚀 Como Executar Localmente
+
 Clonar o repositório
 git clone https://github.com/jhenriquefelix/reserva-salas-backend.git
 cd reserva-salas
