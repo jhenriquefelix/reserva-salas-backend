@@ -23,8 +23,10 @@ builder.Services.AddDbContext<ReservaSalasDbContext>(options =>
 
 builder.Services.AddScoped<IReservasRepositorioLeitura, ReservasRepositorio>();
 builder.Services.AddScoped<IReservasRepositorioEscrita, ReservasRepositorio>();
+builder.Services.AddScoped<ILocaisRepositorioLeitura, LocaisRepositorio>();
 
 builder.Services.AddScoped<ReservaAppService>();
+builder.Services.AddScoped<LocaisAppService>();
 
 builder.Services.AddScoped<IValidator<CriarReservaDto>, CriarReservaValidator>();
 builder.Services.AddScoped<IValidator<AtualizarReservaDto>, AtualizarReservaValidator>();

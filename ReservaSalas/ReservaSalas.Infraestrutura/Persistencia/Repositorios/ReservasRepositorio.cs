@@ -43,7 +43,12 @@ public class ReservasRepositorio : IReservasRepositorioLeitura, IReservasReposit
 
     public async Task<IReadOnlyList<Reserva>> ListarAsync(Guid? salaId, DateTime? de, DateTime? ate, CancellationToken ct)
     {
-        var q = _db.Reservas.AsNoTracking().AsQueryable();
+        var q = _db.Reservas
+            .AsNoTracking()
+            .Include(r => r.Sala)
+            .Include(r => r.Local)
+            .AsQueryable();
+
         if (salaId.HasValue) q = q.Where(r => r.SalaId == salaId.Value);
         if (de.HasValue) q = q.Where(r => r.Inicio >= de.Value);
         if (ate.HasValue) q = q.Where(r => r.Fim <= ate.Value);

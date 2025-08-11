@@ -4,6 +4,8 @@
         Guid Id,
         Guid LocalId,
         Guid SalaId,
+        string LocalNome,
+        string SalaNome,
         string ResponsavelNome,
         string ResponsavelEmail,
         DateTime Inicio,

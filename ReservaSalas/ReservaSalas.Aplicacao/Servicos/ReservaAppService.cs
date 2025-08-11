@@ -71,6 +71,8 @@ namespace ReservaSalas.Aplicacao.Servico
                 r.Id,
                 r.LocalId,
                 r.SalaId,
+                r.Local?.Nome ?? string.Empty,
+                r.Sala?.Nome ?? string.Empty,
                 r.ResponsavelNome,
                 r.ResponsavelEmail,
                 r.Inicio,
