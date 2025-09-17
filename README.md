@@ -1,6 +1,6 @@
 # 📅 Reserva de Salas
 
-Projeto de **prova técnica** para gerenciamento de reservas de salas, desenvolvido em **.NET 8** com **Entity Framework Core** e **SQLite**.
+Projeto de **estudo** para gerenciamento de reservas de salas, desenvolvido em **.NET 8** com **Entity Framework Core** e **SQLite**.
 
 Repositório: [https://github.com/jhenriquefelix/reserva-salas-backend](https://github.com/jhenriquefelix/reserva-salas-backend)
 
